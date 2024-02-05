@@ -14,7 +14,7 @@ function App() {
     <Provider store={Store}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="Login Screen"
+          initialRouteName="Home Screen"
           screenOptions={{
             headerTitleAlign: 'center',
             headerStyle: {

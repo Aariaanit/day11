@@ -12,7 +12,7 @@ function userReducer(state = initialState, action) {
         case SET_USER_AGE:
             return { ...state, age: action.payload };
         case INCREASE_AGE:
-            return { ...state, age: (state.age + 1) };
+            return { ...state, age: parseInt(state.age) + 1 };
         default:
             return state;
     }
